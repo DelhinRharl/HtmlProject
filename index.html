@@ -3,13 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+  
   </head>
 
   <body>
+    <header id="header">
+      <div id="logo">
+        <img
+          src="img/redmine.jpg"
+          alt="product-image"
+          id="header-img"
+          height="150"
+          width="200"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#about"> About the Phone </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#price"> Price </a>
+          </li>
+          <li>
+            <a class="nav-link" href="#reviews"> Reviews</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="video">
+      <!-- <iframe
+        width="500"
+        height="397"
+        src=""
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
+      <video width="320" height="240" autoplay id="video">
+        <source
+          src="https://www.youtube.com/embed/ZQPZYeiA5zk"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        type="email"
+        id="email"
+        placeholder="Input your emial here"
+        required
+      />
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+    <div class="main">
+      <div id="#about">All about the phone</div>
+      <div id="#price">The price of the phone</div>
+      <div id="#reviews">All Reviews form buyers</div>
+    </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <h1>Hello World !</h1>
 
     <script src="js/index.js"></script>
   </body>
